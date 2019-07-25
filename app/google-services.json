@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "683848747888",
+    "firebase_url": "https://shopping-list-6b983.firebaseio.com",
+    "project_id": "shopping-list-6b983",
+    "storage_bucket": "shopping-list-6b983.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683848747888:android:9cace2d304bef1dc",
+        "android_client_info": {
+          "package_name": "com.chaapp.shoppinglist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683848747888-qclpm44tbcj0dmqd3jn6hdi4ulukriae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEHjTnrTPNhBccd4gmMTLnzCwFHNs7Ego"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683848747888-qclpm44tbcj0dmqd3jn6hdi4ulukriae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

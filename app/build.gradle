@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        applicationId "com.chaapp.shoppinglist"
+        minSdkVersion 16
+        targetSdkVersion 28
+        useLibrary  'org.apache.http.legacy'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.firebase:firebase-core:17.0.1'
+    //compile 'com.google.android.gms:play-services:+'
+    //compile files('libs/pollfish.jar')
+}
+apply plugin: 'com.google.gms.google-services'  // Google Play services Gradle plugin
